@@ -1,0 +1,52 @@
+.feature {
+    background-color: $lightGrayishBlue;
+
+    .container {
+        padding: 96px 24px;
+    }
+    &__intro {
+        max-width: 640px;
+
+        h2 {
+            font-size: 36px;
+            font-weight: 300;
+            color: $darkBlue;
+            margin-top: 0px;
+            margin-bottom: 35px;
+        }
+
+        p {
+            color: $grayishBlue;
+            margin-bottom: 36px;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 27px;
+        }
+    }
+
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        padding: 15px;
+    }
+
+    &__image {
+        margin-bottom: 44px;
+    }
+
+    &__title {
+        margin-bottom: 24px;
+        font-size: 24px;
+        font-weight: 300;
+        color: $darkBlue;
+    }
+
+    &__text {
+        font-size: 14px;
+        font-weight: 300;
+        color: $grayishBlue;
+    }
+}
